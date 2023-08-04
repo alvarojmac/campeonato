@@ -57,7 +57,7 @@ function verRodada() {
      
      
      nRodada.value = ''
-     nRodada.focus()
+     //nRodada.focus()
 
      // res.innerHTML = rodadas // test
      // res2.innerHTML = `A rodada selecionada ${rodadaAtual}` // test
