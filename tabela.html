@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirão 2023 (PES 2020-1)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Brasileirão 2023 (PES 2020-1)</h1></header>
+    <p>Rodada 
+        <input type="number" name="rodada" id="nrodada">
+        <input type="button" value="Ver" name="btn" id="btn" onclick="verRodada()">
+    </p>
+    
+    <table class="invisivel" id="rod1">
+        <caption>Rodada 1 - Campeonato de Futebol</caption>
+        <tr>
+            <th>Mandante</th>
+            <th>Resultado</th>
+            <th>Visitante</th>
+        </tr>
+        <tr>
+            <td><img src="./img/Sesc.png" alt="Sesc" class="escudo"><p>Sesc</p></td>
+            <td class="placar"><p>3 - 0</p></td>
+            <td><img src="./img/Lisbonera.png" alt="Sesc" class="escudo"><p>Lisbonera</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Trindade.png" alt="Sesc" class="escudo"><p>Trindade</p></td>
+            <td class="placar"><p>0 - 0</p></td>
+            <td><img src="./img/Horizonte.png" alt="Sesc" class="escudo"><p>Horizonte</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Sport.png" alt="Sesc" class="escudo"><p>Sport</p></td>
+            <td class="placar"><p>3 - 2</p></td>
+            <td><img src="./img/Real.png" alt="Sesc" class="escudo"><p>Real</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Tauros.png" alt="Sesc" class="escudo"><p>Tauros</p></td>
+            <td class="placar"><p>2 - 1</p></td>
+            <td><img src="./img/Hipernova.jpg" alt="Sesc" class="escudo"><p>Hipernova</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Treze.png" alt="Sesc" class="escudo"><p>Treze</p></td>
+            <td class="placar"><p>2 - 4</p></td>
+            <td><img src="./img/Shadows.png" alt="Sesc" class="escudo"><p>Shadows</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Nacional.png" alt="Sesc" class="escudo"><p>Nacional</p></td>
+            <td class="placar"><p>2 - 1</p></td>
+            <td><img src="./img/Novos.png" alt="Sesc" class="escudo"><p>Novos Ares</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Refriu.png" alt="Sesc" class="escudo"><p>Refriu</p></td>
+            <td class="placar"><p>3 - 2</p></td>
+            <td><img src="./img/Grifense.png" alt="Sesc" class="escudo"><p>Grifense</p></td>
+        </tr>
+    </table>
+
+    <table class="invisivel" id="rod2">
+        <caption>Rodada 2 - Campeonato de Futebol</caption>
+        <tr>
+            <th>Mandante</th>
+            <th>Resultado</th>
+            <th>Visitante</th>
+        </tr>
+        <tr>
+            <td><img src="./img/Horizonte.png" alt="Horizonte" class="escudo"><p>Horizonte</p></td>
+            <td class="placar"><p>3 - 2</p></td>
+            <td><img src="./img/Sesc.png" alt="Sesc" class="escudo"><p>Sesc</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Lisbonera.png" alt="Lisbonera" class="escudo"><p>Lisbonera</p></td>
+            <td class="placar"><p>1 - 4</p></td>
+            <td><img src="./img/Refriu.png" alt="Refriu" class="escudo"><p>Refriu</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Real.png" alt="Real" class="escudo"><p>Real</p></td>
+            <td class="placar"><p>2 - 4</p></td>
+            <td><img src="./img/Trindade.png" alt="Trindade" class="escudo"><p>Trindade</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Hipernova.jpg" alt="Hipernova" class="escudo"><p>Hipernova</p></td>
+            <td class="placar"><p>0 - 1</p></td>
+            <td><img src="./img/Sport.png" alt="Sport" class="escudo"><p>Sport</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Shadows.png" alt="Shadows" class="escudo"><p>Shadows</p></td>
+            <td class="placar"><p>2 - 1</p></td>
+            <td><img src="./img/Tauros.png" alt="Tauros" class="escudo"><p>Tauros</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Novos.png" alt="Novos Ares" class="escudo"><p>Novos Ares</p></td>
+            <td class="placar"><p>3 - 0</p></td>
+            <td><img src="./img/Treze.png" alt="Treze" class="escudo"><p>Treze</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Grifense.png" alt="Grifense" class="escudo"><p>Grifense</p></td>
+            <td class="placar"><p><a href="./videos/GrixNac 2023.07.26.mp4" target="_blank">0 - 2</a></p></td>
+            <td><img src="./img/Nacional.png" alt="Nacional" class="escudo"><p>Nacional</p></td>
+        </tr>
+    </table>
+
+    <table class="invisivel" id="rod3">
+        <caption>Rodada 3 - Campeonato de Futebol</caption>
+        <tr>
+            <th>Mandante</th>
+            <th>Resultado</th>
+            <th>Visitante</th>
+        </tr>
+        <tr>
+            <td><img src="./img/Sesc.png" alt="Sesc" class="escudo"><p>Sesc</p></td>
+            <td class="placar"><p><a href="./videos/SesxRea 2023.07.29.mp4" target="_blank">2 - 1</a></p></td>
+            <td><img src="./img/Real.png" alt="Real" class="escudo"><p>Real</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Lisbonera.png" alt="Lisbonera" class="escudo"><p>Lisbonera</p></td>
+            <td class="placar"><p>5 - 2</p></td>
+            <td><img src="./img/Horizonte.png" alt="Horizonte" class="escudo"><p>Horizonte</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Trindade.png" alt="Trindade" class="escudo"><p>Trindade</p></td>
+            <td class="placar"><p>1 - 1</p></td>
+            <td><img src="./img/Hipernova.jpg" alt="Hipernova" class="escudo"><p>Hipernova</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Sport.png" alt="Sport" class="escudo"><p>Sport</p></td>
+            <td class="placar"><p><a href="./videos/SpoxSha 2023.07.29 .mp4" target="_blank">1 - 2</a></p></td>
+            <td><img src="./img/Shadows.png" alt="Shadows" class="escudo"><p>Shadows</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Tauros.png" alt="Tauros" class="escudo"><p>Tauros</p></td>
+            <td class="placar"><p><a href="./videos/TauxNov 2023.07.29.mp4" target="_blank">3 - 3</a></p></td>
+            <td><img src="./img/Novos.png" alt="Novos Ares" class="escudo"><p>Novos Ares</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Treze.png" alt="Treze" class="escudo"><p>Treze</p></td>
+            <td class="placar"><p><a href="./videos/TrexGri 2023.07.30.mp4" target="_blank">4 - 4</a></p></td>
+            <td><img src="./img/Grifense.png" alt="Grifense" class="escudo"><p>Grifense</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Refriu.png" alt="Refriu" class="escudo"><p>Refriu</p></td>
+            <td class="placar"><p><a href="./videos/RefxNac 2023.07.30.mp4" target="_blank">1 - 3</a></p></td>
+            <td><img src="./img/Nacional.png" alt="Nacional" class="escudo"><p>Nacional</p></td>
+        </tr>
+    </table>
+
+    <table class="invisivel" id="rod4">
+        <caption>Rodada 4 - Campeonato de Futebol</caption>
+        <tr>
+            <th>Mandante</th>
+            <th>Resultado</th>
+            <th>Visitante</th>
+        </tr>
+        <tr>
+            <td><img src="./img/Hipernova.jpg" alt="Hipernova" class="escudo"><p>Hipernova</p></td>
+            <td class="placar"><p><a href="./videos/HipxSesc 2023.07.30.mp4" target="_blank">4 - 5</a></p></td>
+            <td><img src="./img/Sesc.png" alt="Sesc" class="escudo"><p>Sesc</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Real.png" alt="Real" class="escudo"><p>Real</p></td>
+            <td class="placar"><p>0 - 2</p></td>
+            <td><img src="./img/Lisbonera.png" alt="Lisbonera" class="escudo"><p>Lisbonera</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Horizonte.png" alt="Horizonte" class="escudo"><p>Horizonte</p></td>
+            <td class="placar"><p>0 - 1</p></td>
+            <td><img src="./img/Refriu.png" alt="Refriu" class="escudo"><p>Refriu</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Shadows.png" alt="Shadows" class="escudo"><p>Shadows</p></td>
+            <td class="placar"><p><a href="./videos/ShaxTri 2023.07.30.mp4" target="_blank">2 - 3</a></p></td>
+            <td><img src="./img/Trindade.png" alt="Trindade" class="escudo"><p>Trindade</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Novos.png" alt="Novos Ares" class="escudo"><p>Novos Ares</p></td>
+            <td class="placar"><p><a href="./videos/NovxSpo 2023.07.31.mp4" target="_blank">0 - 9</a></p></td>
+            <td><img src="./img/Sport.png" alt="Sport" class="escudo"><p>Sport</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Grifense.png" alt="Grifense" class="escudo"><p>Grifense</p></td>
+            <td class="placar"><p>4 - 4</p></td>
+            <td><img src="./img/Tauros.png" alt="Tauros" class="escudo"><p>Tauros</p></td>
+        </tr>
+        <tr>
+            <td><img src="./img/Nacional.png" alt="Nacional" class="escudo"><p>Nacional</p></td>
+            <td class="placar"><p><a href="./videos/NacxTre 2023.07.31.mp4" target="_blank">1 - 3</a></p></td>
+            <td><img src="./img/Treze.png" alt="Treze" class="escudo"><p>Treze</p></td>
+        </tr>
+    </table>
+
+    <div id="res">
+
+    </div>
+
+    <div id="res2">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

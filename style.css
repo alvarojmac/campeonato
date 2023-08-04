@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+table.invisivel {
+    display: none;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+td.placar  > p{
+    font-size: 25px;
+}
+
+a {
+    color: rgb(242, 20, 20);
+    text-decoration: none;
+}
+
+img.escudo {
+    max-width: 40px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
