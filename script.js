@@ -3,6 +3,8 @@ let rod1 = document.getElementById('rod1')
 let rod2 = document.getElementById('rod2')
 let rod3 = document.getElementById('rod3')
 let rod4 = document.getElementById('rod4')
+let rod5 = document.getElementById('rod5')
+let rod6 = document.getElementById('rod6')
 let btn = document.getElementById('btn')
 let res = document.getElementById('res')
 let res2 = document.getElementById('res2')
@@ -32,33 +34,56 @@ function verRodada() {
             rod2.classList.add('invisivel')
             rod3.classList.add('invisivel')
             rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
             break;
         case 2:
             rod2.classList.remove('invisivel')
             rod1.classList.add('invisivel')
             rod3.classList.add('invisivel')
             rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
             break;
         case 3:
             rod3.classList.remove('invisivel')
             rod1.classList.add('invisivel')
             rod2.classList.add('invisivel')
             rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
             break;
         case 4:
             rod4.classList.remove('invisivel')
             rod1.classList.add('invisivel')
             rod2.classList.add('invisivel')
             rod3.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
             break;
+        case 5:
+            rod5.classList.remove('invisivel')
+            rod1.classList.add('invisivel')
+            rod2.classList.add('invisivel')
+            rod3.classList.add('invisivel')
+            rod4.classList.add('invisivel')
+            rod6.classList.add('invisivel')
+            break;
+        case 6:
+            rod6.classList.remove('invisivel')
+            rod1.classList.add('invisivel')
+            rod2.classList.add('invisivel')
+            rod3.classList.add('invisivel')
+            rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            break;    
      }
 
-    
-     
-     
      nRodada.value = ''
-     //nRodada.focus()
+     nRodada.focus()
 
      // res.innerHTML = rodadas // test
      // res2.innerHTML = `A rodada selecionada ${rodadaAtual}` // test
+
 }
+
