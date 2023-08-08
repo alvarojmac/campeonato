@@ -7,14 +7,19 @@ p {
     text-align: center;
 }
 
+input[type="button"] {
+    margin-top: 20px;
+}
+
+
 table {
     border-collapse: collapse;
-    width: 800px;
+    width: 80%;
     margin-top: 20px;
     margin: auto;
 }
 
-table.invisivel {
+.invisivel {
     display: none;
 }
 
@@ -52,8 +57,13 @@ caption {
     padding-top: 20px;
 }
 
+.classificacao {
+    border: 2px solid red;
+    padding: 20px;
+}
+
 div img {
-    max-width:800px;
+    max-width: 80%;
     width: auto;
     height: auto;
     padding-top: 20px;
