@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(50, 50, 50);
     color: white;
 }
 
@@ -11,6 +11,10 @@ header img {
     max-width: 10%;
     width: auto;
     height: auto;
+}
+
+h2 {
+    font-size: 12px;
 }
 
 p {
@@ -54,9 +58,9 @@ img.escudo {
 }
 
 th {
-    background-color: #9bd206;
+    background-color: #999999;
     font-size: 18px;
-    color: rgb(2, 2, 73);
+    color: rgb(0, 0, 0);
 }
 
 tr {
