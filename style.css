@@ -17,6 +17,10 @@ h2 {
     font-size: 12px;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 p {
     margin: auto;
     text-align: center;
@@ -49,7 +53,7 @@ td.placar  > p{
 }
 
 a {
-    color: rgb(238, 238, 238);
+    color: rgb(199, 244, 0);
     text-decoration: none;
 }
 
