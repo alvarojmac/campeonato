@@ -6,6 +6,8 @@ let rod4 = document.getElementById('rod4')
 let rod5 = document.getElementById('rod5')
 let rod6 = document.getElementById('rod6')
 let rod7 = document.getElementById('rod7')
+let rod8 = document.getElementById('rod8')
+let rod9 = document.getElementById('rod9')
 let btn = document.getElementById('btn')
 let btnVoltar = document.getElementById('voltar')
 let btnAvancar = document.getElementById('avancar')
@@ -42,6 +44,8 @@ function verRodada() {
             rod5.classList.add('invisivel')
             rod6.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;
         case 2:
             rod2.classList.remove('invisivel')
@@ -51,6 +55,8 @@ function verRodada() {
             rod5.classList.add('invisivel')
             rod6.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;
         case 3:
             rod3.classList.remove('invisivel')
@@ -60,6 +66,8 @@ function verRodada() {
             rod5.classList.add('invisivel')
             rod6.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;
         case 4:
             rod4.classList.remove('invisivel')
@@ -69,6 +77,8 @@ function verRodada() {
             rod5.classList.add('invisivel')
             rod6.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;
         case 5:
             rod5.classList.remove('invisivel')
@@ -78,6 +88,8 @@ function verRodada() {
             rod4.classList.add('invisivel')
             rod6.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;
         case 6:
             rod6.classList.remove('invisivel')
@@ -87,6 +99,8 @@ function verRodada() {
             rod4.classList.add('invisivel')
             rod5.classList.add('invisivel')
             rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
             break;   
         case 7:
             rod7.classList.remove('invisivel')
@@ -96,7 +110,31 @@ function verRodada() {
             rod4.classList.add('invisivel')
             rod5.classList.add('invisivel')
             rod6.classList.add('invisivel')
-            break;       
+            rod8.classList.add('invisivel')
+            rod9.classList.add('invisivel')
+            break;
+        case 8:
+            rod8.classList.remove('invisivel')
+            rod1.classList.add('invisivel')
+            rod2.classList.add('invisivel')
+            rod3.classList.add('invisivel')
+            rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
+            rod7.classList.add('invisivel')
+            rod9.classList.add('invisivel')
+            break;
+        case 9:
+            rod9.classList.remove('invisivel')
+            rod1.classList.add('invisivel')
+            rod2.classList.add('invisivel')
+            rod3.classList.add('invisivel')
+            rod4.classList.add('invisivel')
+            rod5.classList.add('invisivel')
+            rod6.classList.add('invisivel')
+            rod7.classList.add('invisivel')
+            rod8.classList.add('invisivel')
+            break;
      }
 
      nRodada.value = ''

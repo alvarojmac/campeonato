@@ -23,7 +23,7 @@ div#times {
     text-align: center;
 }
 
-div#times > abbr > img {
+div#times > a > abbr > img {
     max-width: 40px;
     padding: 3px;
 }
